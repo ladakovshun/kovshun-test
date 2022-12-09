@@ -1,32 +1,24 @@
-# Prerequisites
-*.d
+#include <iostream>
+using namespace std;
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
 
-# Precompiled Headers
-*.gch
-*.pch
+int main()
+{
+    double a= 45.50,b= 17.40,c= 31.50;
+    double s1, s2, s3, p;
+    int m1, m2, m3;
+    cout << "Enter a b c\n";
+    cin >> m1;
+    cin >> m2;
+    cin >>m3;
+    s1 = m1 * a;
+    s2 = m2 * b;
+    s3 = m3 * c;
+    p = s1 + s2 + s3;
+    cout << "s1=" << s1<< endl;
+    cout << "s2=" << s2 << endl;
+    cout << "s3=" << s3 << endl;
+    cout << "P=" << p << endl;
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+    return 0;
+   
