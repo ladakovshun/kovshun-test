@@ -20,5 +20,7 @@ int main()
     cout << "s3=" << s3 << endl;
     cout << "P=" << p << endl;
 
+    std::cout << "Вирішено\n";
+    
     return 0;
    
